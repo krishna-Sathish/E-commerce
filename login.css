@@ -394,6 +394,7 @@ hr {
   }
   .logo img {
     width: 30%;
+    margin-top: 10px;
   }
 
   /* main content */
@@ -407,14 +408,14 @@ hr {
     width: 80%;
   }
   .login input {
-    width: 80%;
+    width: 100%;
   }
   .create-account {
     margin-top: 40px;
     width: 80%;
   }
   .create-account input {
-    width: 80%;
+    width: 100%;
   }
   .additional-info {
     grid-template-columns: repeat(1, 1fr);

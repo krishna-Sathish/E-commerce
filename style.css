@@ -425,44 +425,10 @@ p {
   
   margin-left: 20px;
   font-weight: bold;
+  border-bottom: 2px solid rgb(18, 55, 55);
+  display: inline-block;
+  width: fit-content;
 }
-.layout-4 hr{
-  margin-top: 5px;;
-  margin-left: 30px;
-}
-#rel::after{
-  content: '';
-  position: absolute;
-  width: 5%;
- border: 1px solid rgb(45, 137, 107);
-  top: 42px;
- transform: translateX(-175%);
-}
-#dout::after{
-  content: '';
-  position: absolute;
-  width: 5%;
- border: 1px solid rgb(45, 137, 107);
-  top: 42px;
- transform: translateX(-185%);
-}
-#sell::after{
-  content: '';
-  position: absolute;
-  width: 5%;
- border: 1px solid rgb(45, 137, 107);
-  top: 42px;
- transform: translateX(-135%);
-}
-#trendy::after{
-  content: '';
-  position: absolute;
-  width: 5%;
- border: 1px solid rgb(45, 137, 107);
-  top: 42px;
- transform: translateX(-85%);
-}
-
 .trending-protects {
 
   margin: 20px;
@@ -599,7 +565,7 @@ hr {
   font-weight: bold;
   
 }
-@media (min-width:601px) and (max-width: 900px) {
+@media  (max-width: 1024px) {
   .logo img{
     width: 70%;
   }
@@ -731,7 +697,9 @@ hr {
 }
 .logo img{
   width: 30%;
+  margin-top: 10px;
 }
+
 
 .nav-bar li a {
   font-size: 15px;
@@ -746,6 +714,9 @@ hr {
   
   #heading span {
     font-size: 23px;
+  }
+  .home-img img{
+    margin-top: 30px;
   }
  
   /* popular category */
@@ -813,14 +784,14 @@ hr {
     }
 .summer-collection-img img {
   width: 100%;
-  height: 45vh;
+  height: 55vh;
 }
 
 .layout-4{
   grid-template-columns: repeat(1,1fr);
 }
 .trending-protects{
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
 }
 .additional-info {
   grid-template-columns: repeat(1, 1fr);
